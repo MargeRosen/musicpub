@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  composer: MyString
+  description: MyText
+  price: 1
+  discontinue: false
+  level: MyString
+  genre: MyString
+
+two:
+  title: MyString
+  composer: MyString
+  description: MyText
+  price: 1
+  discontinue: false
+  level: MyString
+  genre: MyString

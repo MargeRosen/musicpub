@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @chart.title %>
+</p>
+
+<p>
+  <strong>Composer:</strong>
+  <%= @chart.composer %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @chart.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @chart.price %>
+</p>
+
+<p>
+  <strong>Discontinue:</strong>
+  <%= @chart.discontinue %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @chart.level %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @chart.genre %>
+</p>
+
+<%= link_to 'Edit', edit_chart_path(@chart) %> |
+<%= link_to 'Back', charts_path %>

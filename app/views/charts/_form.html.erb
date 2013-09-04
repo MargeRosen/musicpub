@@ -1,0 +1,11 @@
+<%= simple_form_for(@chart) do |f| %>
+  <%= f.error_notification %>
+  <%= f.input :title %><br>
+  <%= f.input :composer %><br>
+  <%= f.input :description %><br>
+  <%= f.input :price %><br>
+  <%= f.input :discontinue %>
+  <%= f.input :level %><br>
+  <%= f.input :genre %><br>
+  <%= f.button :submit %>
+<% end %>

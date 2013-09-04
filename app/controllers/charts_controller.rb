@@ -4,7 +4,7 @@ class ChartsController < ApplicationController
   # GET /charts
   # GET /charts.json
   def index
-    @charts = Chart.all
+    @charts = Chart.find(:all, :order => 'title')
   end
 
   # GET /charts/1

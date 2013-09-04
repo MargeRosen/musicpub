@@ -19,10 +19,10 @@
   <tbody>
     <% @charts.each do |chart| %>
       <tr>
-        <td><%= chart.title %></td>
+        <td><h4><%= chart.title %></h4></td>
         <td><%= chart.composer %></td>
         <td><%= chart.description %></td>
-        <td><%= chart.price %></td>
+        <td> $<%= chart.price %></td>
         <td><%= chart.discontinue %></td>
         <td><%= chart.level %></td>
         <td><%= chart.genre %></td>

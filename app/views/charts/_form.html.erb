@@ -8,6 +8,7 @@
   <%= f.input :level, collection: [:Medium_easy, :Medium, :Medium_advanced,
     :Advanced], as: :radio_buttons  %>
   <%= f.input :genre, collection: [:Swing, :Contemporary_Jazz, :Latin, :Ballads,
-    :Standards, :Blues, :World, :Other], as: :radio_buttons  %>
+    :Standards, :Blues, :World, :Other], as: :radio_buttons %>
+  <%= f.error :base %>
   <%= f.button :submit%>
 <% end %>

@@ -14,6 +14,10 @@ rails s
 
 Ruby 2.0.0, Rails 4.0.0
 
+#####Possible improvements:
+
+Add count input box - for when there is more than one copy in stock
+Move Discontinue to the last column. Only display if "Yes"
 
 ###License
 

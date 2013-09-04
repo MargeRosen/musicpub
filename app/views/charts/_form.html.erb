@@ -1,11 +1,13 @@
 <%= simple_form_for(@chart) do |f| %>
   <%= f.error_notification %>
-  <%= f.input :title %><br>
-  <%= f.input :composer %><br>
-  <%= f.input :description %><br>
-  <%= f.input :price %><br>
+  <%= f.input :title %>
+  <%= f.input :composer, hint: "and /arranger"%>
+  <%= f.input :description %>
+  <%= f.input :price, hint: "should be in USD"  %>
   <%= f.input :discontinue %>
-  <%= f.input :level %><br>
-  <%= f.input :genre %><br>
-  <%= f.button :submit %>
+  <%= f.input :level, collection: [:Medium_easy, :Medium, :Medium_advanced,
+    :Advanced], as: :radio_buttons  %>
+  <%= f.input :genre, collection: [:Swing, :Contemporary_Jazz, :Latin, :Ballads,
+    :Standards, :Blues, :World, :Other], as: :radio_buttons  %>
+  <%= f.button :submit%>
 <% end %>

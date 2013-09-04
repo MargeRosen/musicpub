@@ -20,4 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  charts:
+    listing: "Jazz Ensemble Charts"
+  chart:
+    new: "New Chart"
+    edit: "Edit Chart"
+

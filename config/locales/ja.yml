@@ -1,0 +1,17 @@
+ja:
+  charts:
+    listing: "ジャズアンサンブル·チャート"
+  chart:
+    new: "新しいチャート"
+    edit: "グラフを編集"
+  activerecord:
+    attributes:
+      chart:
+        title: "タイトル"
+        composer: "作曲家"
+        description: "説明"
+        price: "価格"
+        discontinue: "中止する"
+        level: "レベル"
+        genre: "ジャンル"
+

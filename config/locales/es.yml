@@ -1,0 +1,16 @@
+es:
+  charts:
+    listing: "gráficos Jazz Band"
+  chart:
+    new: "nuevo gráfico"
+    edit: "edición gráfica"
+  activerecord:
+    attributes:
+      chart:
+        title: "Título"
+        composer: "Compositor"
+        description: "Descripción"
+        price: "Precio"
+        discontinue: "Suspender"
+        level: "Nivel"
+        genre: "Género"

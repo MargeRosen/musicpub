@@ -2,8 +2,21 @@
 
 Use this form template to manage sheet music inventory.
 
+This app is available in English, Spanish and Japanese.
 
-To set-up this app in development, run these commands:
+Home page in English:
+
+![Alt text](/lib/assets/musicpub_index.png)
+
+New/Create SimpleForm template in Spanish:
+
+![Alt text](/lib/assets/mupub_sp_create.png)
+
+Edit SimpleForm template in Japanese:
+
+![Alt text](/lib/assets/mupub_ja_edit.png)
+
+####Try it out!  To set-up this app in development, run these commands:
 
 ```
 bundle
@@ -14,11 +27,19 @@ rails s
 
 Ruby 2.0.0, Rails 4.0.0
 
+
+Gem simple_form, 3.0.0.rc
+
+
 #####Possible improvements:
 
-Add count input box - for when there is more than one copy in stock.
+Translate the index column names.  Translate the text input into "Description" column.
 
-Move "Discontinue" to the last column and only display if "Yes."
+Enable more languages.
+
+Add count input box. There may be more than one copy in stock.
+
+Move "Discontinue" to the last column and only display if true.
 
 Add PDF file upload functionality using S3 bucket.
 

@@ -41,9 +41,9 @@ Add count input box. There may be more than one copy in stock.
 
 Move "Discontinue" to the last column and only display if true.
 
-Add PDF file upload functionality using S3 bucket.
+Add PDF file of the score and parts with upload functionality using S3 bucket.
 
-Add Shopping cart, Stripe API for purchases, and pdf download functionality for customers wishing to buy sheet music.
+Add Shopping cart, Stripe API for purchases, and pdf download functionality for customers wishing to buy the sheet music.
 
 
 ###License
